@@ -1,0 +1,102 @@
+.card{
+    width: 300px;
+    height: 500px;
+    background-color: #1f1f1f;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 5px 10px 12px rgb(14, 12, 12);
+
+}
+.image{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-image: url('./images/161458133.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: -31px auto;
+    transform: translateY(-33%);
+}
+.name{
+    color: white;
+    padding: 5px 10px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.country{
+    margin-top: 5px;
+    color: #cce678;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h3{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    margin: 5px;
+}
+.social{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    transform: translateY(22px)
+}
+.social button{
+    background-color: #333333;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 4px;
+    margin: 5px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social button:nth-child(1):hover{
+    font-size: 30px;
+    background: linear-gradient( to right,#00c6ff,#0072ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social button:nth-child(2):hover{
+    font-size: 30px;
+    background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social button:nth-child(3):hover{
+    font-size: 30px;
+    background: linear-gradient(45deg, #0077b5,#000000, #313335, #86888a, #caccce, #00a0dc);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social button:nth-child(4):hover{
+    font-size: 30px;
+    background: linear-gradient(to right,#1DA1F2,#009ffc);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social button:nth-child(5):hover{
+    font-size: 30px;
+    background: linear-gradient( to right,#00c6ff,#0072ff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
